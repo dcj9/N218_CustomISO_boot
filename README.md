@@ -17,5 +17,6 @@
 - https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Network_based_Installations/#chap-pxe-server-setup  
 - https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Kickstart_Installations/
 - https://pykickstart.readthedocs.io/en/latest/
+- https://www.youtube.com/watch?v=Kn5rOJdPlEw <-- Interesting regarding the kickstart file creation. However red hat specific
 
 
