@@ -14,7 +14,7 @@
 
 # Misc:
 - https://www.youtube.com/watch?v=ESC2tk5Hkio <-- Great walkthrough
-- https://docs.fedoraproject.org/en-US/docs/  
+- https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Network_based_Installations/#chap-pxe-server-setup  
 - https://docs.fedoraproject.org/en-US/fedora/f36/install-guide/advanced/Kickstart_Installations/
 - https://pykickstart.readthedocs.io/en/latest/
 
