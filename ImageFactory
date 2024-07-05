@@ -1,3 +1,9 @@
+# https://docs.fedoraproject.org/en-US/fedora-server/tutorials/imagefactory/#_the_kickstart_file
+
+ImageFactory is a CLI VM management system through fedora. I get worried when the documentation right out the gate says "This is old"
+
+
+
 # https://docs.fedoraproject.org/en-US/fedora-server/_attachments/tutorials/imagefactory/fedora-server-kvm-dev.ks
 
 # fedora-server-vm-full.ks (rel. 1.02)
