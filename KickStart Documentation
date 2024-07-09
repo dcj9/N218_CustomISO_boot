@@ -1,4 +1,71 @@
+
 >>>>        #####        <<<<
+
+# 7/8/2024
+# Kickstart file for Fedora 40 Workstation with NIS
+
+# System bootloader configuration
+bootloader --location=mbr
+
+# Clear the Master Boot Record
+zerombr
+
+# Partition clearing information
+clearpart --all --initlabel
+
+# Disk partitioning information
+autopart --type=plain
+
+# Keyboard layouts
+keyboard --xlayouts='us'
+
+# System language
+lang en_US.UTF-8
+
+# Network information
+network --bootproto=dhcp --device=eth0 --ipv6=auto --activate
+
+# Reboot after installation
+reboot
+
+# Root password (change this!)
+rootpw --iscrypted <encrypted_password>
+
+# System timezone
+timezone UTC --isUtc
+
+# Setup NIS configuration
+nis --domain=<nis_domain> --server=<nis_server_ip>
+
+# System services
+services --enabled=NetworkManager,sshd
+
+# System authentication
+auth --useshadow --enablemd5
+
+# System SELinux configuration
+selinux --disabled
+
+# System firewall configuration
+firewall --disabled
+
+# Install Fedora 40 Workstation packages
+%packages
+@^minimal-environment
+@workstation-product
+@fonts
+@core
+kexec-tools
+%end
+
+# Post-installation script
+%post
+# Additional post-installation commands can be added here
+%end
+
+
+>>>>        #####        <<<<
+
 
 ---> https://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#chapter-9-package-selection
 
