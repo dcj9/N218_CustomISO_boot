@@ -20,3 +20,5 @@
 - https://www.youtube.com/watch?v=Kn5rOJdPlEw <-- Interesting regarding the kickstart file creation. However red hat specific
 
 
+# Read later (watch, whatever)
+https://www.youtube.com/watch?v=uqsVb3lvtBg
